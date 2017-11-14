@@ -1,0 +1,76 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Ozzy>md gittest
+
+C:\Users\Ozzy>cd gittest
+
+C:\Users\Ozzy\gittest>git init
+Initialized empty Git repository in C:/Users/Ozzy/gittest/.git/
+
+C:\Users\Ozzy\gittest>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\Ozzy\gittest>copy NUL styles.css
+        1 file(s) copied.
+
+C:\Users\Ozzy\gittest>copy NUL aboutMe.txt
+        1 file(s) copied.
+
+C:\Users\Ozzy\gittest>git add .
+
+C:\Users\Ozzy\gittest>git commit -m "first git assignment"
+[master (root-commit) de78175] first git assignment
+ 3 files changed, 1 insertion(+)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+C:\Users\Ozzy\gittest>git log
+commit de781759a8bb948a94b91be9b1dc84a3c6f9ecdd (HEAD -> master)
+Author: Portismouth <ozzy.gonzalez@gmail.com>
+Date:   Mon Nov 13 17:22:28 2017 -0600
+
+    first git assignment
+
+C:\Users\Ozzy\gittest>git remote add origin https://github.com/Portismouth/gitte
+st.git
+
+C:\Users\Ozzy\gittest>git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 357 bytes | 357.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Portismouth/gittest.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Ozzy\gittest>git revert -n HEAD
+
+C:\Users\Ozzy\gittest>git revert -n first git assigment
+fatal: bad revision 'first'
+
+C:\Users\Ozzy\gittest>git revert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if po
+ssible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+C:\Users\Ozzy\gittest>
