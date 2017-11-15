@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 830px;
+    height: auto;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(216, 216, 216));
+    margin-left: 5px;
+}
+h1 {
+    margin: 0 5px 0 5px;
+    padding: 5px;
+    font-style: "Comic Sans";
+    display: inline-block;
+}
+h2 {
+    display: inline;
+    text-align: right;
+    padding: 5px;
+    margin-left: 280px;
+    
+}
+.wrapper {
+    background-color: #4C3841;
+    width: 790px;
+    height: auto;
+    margin: 0 5px 0 5px;
+    padding: 20px;
+    background: radial-gradient( rgb(90, 70, 89) 40%, rgb(76, 56, 65) 60%);
+    overflow: hidden;
+}
+.biopic {
+    border: 5px solid grey;
+    height: 230px;
+    width: 300px;
+    display: inline-block;
+}
+.biopic img{
+    height: 230px;
+    width: 300px;
+}
+.about {
+    background-color: white;
+    height: 240px;
+    width: 456px;
+    margin-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+    background: linear-gradient(to right, rgb(255, 255, 255), #E8DFE8);
+}
+.about h3 {
+    background: linear-gradient(#ADADB2, #878593, #ADADB2);
+    padding: 5px;
+    color: white;
+}
+.about p {
+    padding: 5px;
+    font-size: 18px;
+}
+a {
+    color: black;
+}
+.port {
+    display: inline-block;
+    margin: 20px 5px 0 5px;
+    vertical-align: top;
+}
+.port-head {
+    background: linear-gradient(#ADADB2, #878593, #ADADB2);
+    width: 230px;
+    height: auto;
+    margin-top: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+.port-content {
+    background-color: white;
+    width: 250px;
+    height: auto;
+    margin: 0px;
+    background: linear-gradient(to right, rgb(255, 255, 255), #E8DFE8);
+}
+.port-content p{
+    padding: 5px;
+}
+.port-content img {
+    width: 250px;
+    height: 150px;
+}
+.tech-head {
+    background: linear-gradient(#ADADB2, #878593, #ADADB2);
+    height: auto;
+    width: 230px;
+    padding: 10px;
+    margin: 0px;
+}
+.tech-content {
+    background-color: white;
+    width: 230px;
+    height: 150px;
+    margin: 0 20px 0 0;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 255, 255), #E8DFE8);
+}
+.port-head h3{
+    color: white;
+    width: 230px;
+}
+.tech-head h4{
+    color: white;
+    width: 230px;
+}
+.tech-content img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 5px;
+}
+.tech-content input {
+    border-radius: 7px;
+    background-color: #407D61;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.footer {
+    width: 820px;
+    height: auto;
+    margin-left: 5px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(216, 216, 216));
+    text-align: center;
+    padding: 5px;
+}
+.footer img {
+    height: 15px;
+    width: 15px;
+}
