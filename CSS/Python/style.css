@@ -1,0 +1,152 @@
+.container {
+    width: 970px;
+    background-color: #245076;
+}
+img {
+    width: 325px;
+    height: 100px;
+    margin: 15px;
+}
+.search_text {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 15px 15px 180px;
+}
+.search_text p {
+    vertical-align: top;
+    margin: 0 0 3px 205px;
+    color: white;
+}
+.search_text a {
+    color: #DEC138;
+}
+input[type="submit"] {
+    background: #245076;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 28px;
+    width: 40px;
+    color: white;
+    box-shadow: 1px 1px #1F2225;
+}
+.search-bar {
+    background-color: #444444;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 134px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #1F2225;
+}
+#search {
+    height: 28px;
+    text-align: center;
+    box-shadow: 1.5px 1.5px black;
+}
+.nav-bar {
+    background-color: #477EAD;
+    text-align: center;
+    color: white;
+    width: 800px;
+    margin-left: 85px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #1F2225;
+}
+.nav-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px 10px 10px;
+    font-size: 22px
+}
+.nav-bar ul{
+    padding: 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.side-nav {
+    color: #DEC138;
+    display: inline-block;
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 50px;
+    padding: 15px;
+    font-size: 18px;
+}
+.side-nav a{
+    list-style-type: none;
+    color: white;
+}
+.side-nav li {
+    margin: 5px;
+}
+.content-one {
+    width: 575px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+}
+.content-one li {
+    list-style-type: none;
+    font-style: italic;
+    font-size: 24px;
+    color: #DEC138;
+}
+.content-two {
+    background-color: white;
+    border-top: 3px solid #193853;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content-two table {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+    border-top: 5px solid #73A7D5;
+    width: 400px
+}
+.content-two td {
+    width: 275px;
+    text-align: center;
+}
+.content-two ul {
+    margin: 0;
+    font-size: 14px;
+    list-style-type: square;
+}
+.content-two span {
+    font-size: 12px;
+}
+.zen {
+    font-size: 18px;
+}
+table a {
+    color: #81B0D9;
+}
+.footer {
+    text-align: center;
+    color: #75A8D5;
+    background: -webkit-linear-gradient(#245076, #3372AA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#245076, #3372AA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#245076, #3372AA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#245076, #3372AA); /* Standard syntax */
+}
+.footer a {
+    text-decoration: none;
+    color: #75A8D5;
+}
+.footer li {
+    display: inline-block;
+    padding: 50px 30px 10px 30px;
+    font-size: 18px;
+}
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+.footer p {
+    margin: 0px;
+}

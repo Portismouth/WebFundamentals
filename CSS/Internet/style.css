@@ -1,0 +1,11 @@
+.wrapper {
+    width: 1000px;
+}
+.header img {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
+.header h1 {
+    display: inline-block;
+}
