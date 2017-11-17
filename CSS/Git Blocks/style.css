@@ -1,0 +1,98 @@
+* {
+    color: white;
+}
+
+.wrapper {
+    width: 870px;
+    background-color: #DDDFD4;
+    padding: 15px;
+}
+.header {
+    background: #38B0AD;
+    height: 57px;
+}
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    color: black;
+}
+.header img {
+    width: 50px;
+    height: 50px;
+    background-color: #38B0AD;
+}
+.header ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 0 0 65px;
+}
+.header li {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+.body {
+    background-color: #FBE691;
+    width: 870px;
+    margin: 10px 0 10px 0;
+    /* padding: 15px; */
+}
+.gitblock-side {
+    background-color: #153F43;
+    display: inline-block;
+    width: 200px;
+    padding: 0 0 20px 10px;
+    margin: 15px 15px 15px 15px;
+}
+.gitblock-side p {
+    margin: 0 5px 0 5px;
+}
+.main {
+    display: inline-block;
+    width: 625px;
+    vertical-align: top;
+}
+.squares {
+    background-color: #153F43;
+    display: inline-block;
+    width: 145px;
+    height: 140px;
+    margin: 15px 15px 20px 20px;
+    vertical-align: top;
+    padding: 10px;
+}
+.squares p {
+    margin: 10px;
+    font-size: 16px
+}
+.rectangles {
+    background-color: #153F43;
+    display: inline-block;
+    width: 247px;
+    height: 140px;
+    margin: 15px 15px 20px 20px;
+    vertical-align: top;
+    padding: 10px;
+}
+.rectangle {
+    background-color: #153F43;
+    display: inline-block;
+    width: 553px;
+    height: 140px;
+    margin: 15px 15px 20px 20px;
+    vertical-align: top;
+    padding: 10px;
+}
+.footer {
+    background: #38B0AD;
+    height: 67px;
+    /* margin-top: 10px; */
+}
+
+/* font styling */
+#title {
+    font-size: 20px;
+    margin: 0;
+}
+.teal {
+    color: #4DDCCC;
+}

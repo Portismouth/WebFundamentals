@@ -1,11 +1,202 @@
 .wrapper {
-    width: 1000px;
+    width: 900px;
 }
+.main {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E3E3E3, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E3E3E3, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E3E3E3, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E3E3E3, white); /* Standard syntax */
+}
+/* header styling */
 .header img {
     width: 75px;
     height: 75px;
+    margin: 0;
+    overflow: hidden;
+}
+.header h1:first-of-type {
+    display: inline-block;
+    margin: 25px 0 0 0;
+    vertical-align: top;
+    color: #474747;
+}
+.subhead {
+    margin: 0;
+    margin-top: -15px;    
+    padding: 5px 0 5px 15px;
+    color: white;
+    background: #25659E; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#25659E, #5283AC, #25659E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#25659E, #5283AC, #25659E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#25659E, #5283AC, #25659E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#25659E, #5283AC, #25659E); /* Standard syntax */
+}
+
+/* side-bar styling */
+.side-nav {
+    width: 175px;
     display: inline-block;
 }
-.header h1 {
+.side-nav h4 {
+    margin: 15px 0 0 0; 
+}
+.side-nav h5{
+    margin: 10px 0 10px 0;
+}
+.upper {
+    border-bottom: .25px solid #AFAFAF;
+}
+.ad {
+    margin-top: 20px;
     display: inline-block;
+    width: 150px;
+    background: url("images/ad_background.png");
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding: 25px 10px 25px 10px;
+}
+.ad p {
+    margin: 0;
+}
+.ad img {
+    width: 60px;
+    height: 85px;
+    margin: 15px
+}
+
+/* content styling */
+.content-head {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    display: inline-block;
+}
+.content {
+    width: 681px;
+    display: inline-block;
+    vertical-align: top; 
+    padding-left: 40px;   
+    font-size: 14px;
+}
+.content-head p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+}
+#home {
+    width: 15px;
+    height: 15px;
+}
+.contact {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.contact h2{
+    margin: 0;
+}
+#phone {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 445px;
+}
+.content h3 {
+    margin: 0;
+}
+.content ul {
+    margin: 0;
+}
+.content ol {
+    margin: 0;
+}
+.main-content {
+    margin: 0;
+}
+.server {
+    width: 275px;
+    height: 100px;
+    margin: 5px 200px 5px 200px;
+    display: block;
+}
+.big-three {
+    width: 650px;
+    border: 4px solid #22649E;
+    border-bottom: 0;
+    padding: 8px;
+    margin-top: 15px;
+}
+.big-three img {
+    width: 100px;
+    height: 90px;
+}
+.big-three p {
+    margin: 5px 0 0 0;
+    display: inline-block;
+}
+.big-three-content {
+    width: 535px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* font styling */
+.blue {
+    color: #22649E;
+}
+.teal {
+    color: #04AEDA;
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.content h3 {
+    color: #22649E;
+}
+.small{
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: #04AEDA;
+    font-weight: bold;
+}
+
+/* button styling */
+.video {
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #427EB0;
+    width: 170px;
+    height: 30px;
+    border: none;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px gray;
+}
+.more {
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #EF7800;
+    width: 170px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 2px 2px gray;
+}
+.learn {
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #00C0DF;
+    width: 145px;
+    height: 25px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 2px 2px black;
 }

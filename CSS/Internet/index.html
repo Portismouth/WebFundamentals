@@ -10,8 +10,61 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <img src="images\globe.png" alt="globe">
-            <h1>The Internet</h1>
+            <img src="images/globe.png" alt="globe">
+            <h1>The Inter<span class="blue">net</span></h1>
+            <h1 class="subhead">The World Wide Web</h1>
+        </div>
+        <div class="main">
+            <div class="side-nav">
+                <div class="upper">
+                    <h4>So, what's an <span class="red">internet</span>?</h4>
+                    <h5>An <span class="blue">Inter</span>connected <span class="blue">Net</span>work of computers all around the world!</h5>
+                    <button class="video">WATCH A VIDEO</button>
+                    <button class="more">MORE RESOURCES</button>
+                </div>
+                <div class="ad">
+                    <p>Reinvent Your Career in Just 14 Weeks</p>
+                    <img src="images/ninja.png" alt="ninja">
+                    <button class="learn">Learn More</button>
+                </div>
+            </div>
+            <div class ="content">
+                <div class="content-head">
+                    <p><img src="images/home.png" alt="globe" id="home"><span class="blue"> DNS</span></p>
+                    <img src="images/phone.png" alt="phone" id="phone">
+                    <ul class="contact">
+                        <li class="small">  Mon - Fri 9 a.m. - 5 p.m. (EST)</li>
+                        <li><h2><span class="teal">855.967.3787</span></h2></li>
+                        <li class="small">  International +1.617.963.0555</li>
+                    </ul>
+                </div>
+                <h3>Clients and Servers</h3>
+                <p class="main-content">Computers connected to the <span class="teal">Web</span> are called <strong>clients</strong> and <strong>servers</strong></p>
+                <ul>
+                    <li><span class="teal">Clients</span> are the typical Web User's internet-connected devices (for example, your computer 
+                        connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="teal">Web-accessing software</span>
+                        available on those devices (usually a web browser like Firefox or Chrome).</li>
+                    <li><span class="teal">Servers</span> are computers that store <span class="teal">webpages</span>, <span class="teal">sites</span>, or <span class="teal">apps</span>. 
+                        When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                </ul>
+                <img src="images/client_server.jpg" alt="server" class="server">
+                <h3>So What Actually Happens?</h3>
+                <ol>
+                    <li>The browser goes to the <span class="teal">DNS Server</span> and finds the real address of the <span class="teal">server</span> that the webstie lives on.</li>
+                    <li>The browser sends an <span class="teal">HTTP request</span> message to the server asking it to send a copy of the webstie to the client.</li>
+                    <li>If the server approves the client's request, the server sends the client a <span class="teal">"200 OK" message</span> which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+                    <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                </ol>
+                <div class="big-three">
+                    <img src="images/html.png" alt="html">
+                    <div class="big-three-content">
+                        <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+                        <p>While the server can process information in many different languages, the files that they serve to the client
+                        are <span class="italics">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p>Learn more about the Big 3 <a href="#">here</a>!</p> 
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
