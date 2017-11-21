@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('img').click(function(){
+                $(this).css("visibility", "hidden");
+            });
+            $('button').click(function(){
+                $('img').css("visibility", "visible");
+            });
+
+        });
+    </script>
+    <title>Disappearing Ninja</title>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <img src="ninja.png" alt="ninja">
+        <button>Restore</button>
+    </div>
+</body>
+</html>

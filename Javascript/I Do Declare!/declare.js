@@ -1,0 +1,21 @@
+var num1 = 10;
+var num2 = 11;
+var num3 = 12;
+var num4 = 13;
+var string1 = "Hi";
+var string2 = "Yo";
+var string3 = "Sup?";
+var bool1 = true;
+var bool2 = false;
+var undef;
+
+console.log("the first num:",num1);
+console.log(num2);
+console.log(num3);
+console.log(num4);
+console.log(string1);
+console.log(string2);
+console.log(string3);
+console.log(bool1);
+console.log(bool2);
+console.log(undefined);

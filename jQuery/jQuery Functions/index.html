@@ -4,22 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script type="text/javascript">
         $(document).ready(function(){
+            
+            $('.hide').click(function(){
+                $('.hideDiv p').hide()
+            });
+
+            $('.show').click(function(){
+                $('.hideDiv p').show();
+            });
+
+            $('.toggle').click(function(){
+                $('.toggle p').toggle();
+            });
+
+            $('.up').click(function(){
+                $('.slider p').slideUp();
+            });
+
+            $('.down').click(function () {
+                $('.slider p').slideDown();
+            })
+
+            $('.slideToggle').click(function(){
+                $('.slideToggle p').slideToggle();
+            });
+
+            $('.fadeIn').click(function(){
+                $('.fade p').fadeIn();
+            });
+
+            $('.fadeOut').click(function(){
+                $('.fade p').fadeOut();
+            });
+
             $('.addClass').click(function(){
-                
+                $('.addClass p').addClass('blue');
+            });
+
+            $('.before').click(function(){
+                $('.beforeAfter p').before('<p>Pizza!</p>');
+            });
+
+            $('.after').click(function(){
+                $('.beforeAfter .main').after("<p>Let's eat!</p>");
+            });
+
+            $('.append').click(function(){
+                $('.append p').append(" Let's eat!");
+            });
+
+            $('.repeat').click(function(){
+                $('.html p').html("<p>Pete and Repeat were on a boat. Pete fell off - who's left?</p>");
             });
         });
     </script>
-    <link rel="stylesheet" href="style.css">
     <title>jQuery Functions</title>
 </head>
 <body>
+    <div class="hideDiv">
+        <h1>Hide</h1>
+        <button class="hide">Hide</button>
+        <button class="show">Show</button>
+        <p>Click the button to hide this paragraph.</p>
+    </div>
+    <div class="toggle">
+        <h1>Toggle</h1>
+        <button>Toggle</button>
+        <p>Click the button to toggle this paragraph.</p>
+    </div>
+    <div class="slider">
+        <h1>Slide</h1>
+        <button class="up">Up</button>
+        <button class="down">Down</button>
+        <p>Click Up button to hide message.</p>
+    </div>
+    <div class="slideToggle">
+        <h1>SlideToggle</h1>
+        <button>Toggle</button>
+        <p>Click button to toggle message.</p>
+    </div>
+    <div class="fade">
+        <h1>FadingIn&Out</h1>
+        <button class="fadeOut">Make it fade away...</button>
+        <button class="fadeIn">Come Back!!</button>
+        <p>Click button to fade message.</p>
+    </div>
     <div class="addClass">
         <h1>AddClass</h1>
         <button>AddClass</button>
-        <p>Click the button to add class 'red' to this paragraph</p>
+        <p>Click button to add some class to this message.</p>
+    </div>
+    <div class="beforeAfter">
+        <h1>Before and After</h1>
+        <button class="before">Before</button>
+        <button class="after">After</button>
+        <p class="main">... is what I'm talking about.</p>
+    </div>
+    <div class="append">
+        <h1>Before and After</h1>
+        <button>Append</button>
+        <p>I'm hungry.</p>
+    </div>
+    <div class="html">
+        <h1>Adding HTML</h1>
+        <p>Pete and Repeat were on a boat. Pete fell off - who's left?</p>
+        <button class="repeat">Repeat</button>
+        <button>Pete</button>
     </div>
 </body>
 </html>

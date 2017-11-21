@@ -1,0 +1,18 @@
+div {
+    border-bottom: 5px ridge black;
+    text-align: center;
+    width: 350px;
+}
+div button {
+    display: inline-block;
+    margin: 0 0 5px 0;
+}
+p {
+    margin: 0 0px 10px 30px;
+}
+h1 {
+    margin: 0px;
+}
+.blue {
+    color: blue;
+}
