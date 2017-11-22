@@ -1,0 +1,39 @@
+.wrapper {
+    width: 970px;
+}
+.form {
+    display: inline-block;
+}
+form input {
+    display: inline-block;
+    margin: 5px 5px;
+}
+#last_name {
+    margin-left: 7px;
+}
+label[for="desc"] {
+    display: block;
+    margin-bottom: 5px;
+}
+.contacts {
+    display: inline-block;
+    margin-top: 21.44px;
+    margin-left: 150px;
+    vertical-align: top;
+}
+.front {
+    border: 2px solid black;
+    padding: 0 10px 0 10px;
+    vertical-align: top;
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+}
+.back {
+    border: 2px solid black;
+    padding: 0 10px 0 10px;
+    vertical-align: top;
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+}

@@ -1,0 +1,22 @@
+.wrapper{ 
+    padding: 15px;
+    width: 1372px;
+}
+img {
+    width: 330px;
+    height: 200px;
+    border: 5px solid grey;
+}
+.details {
+    margin-top: 35px;
+    margin-left: 400px;
+    background: white;
+    border: 5px solid grey;
+    height: 300px;
+    width: 450px;
+}
+.title {
+    margin: 0;
+    display: inline-block;
+    background: white;
+}

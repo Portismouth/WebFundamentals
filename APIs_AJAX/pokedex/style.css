@@ -1,0 +1,28 @@
+.wrapper {
+    width: 970px;
+}
+.images {
+    width: 700px;
+    display: inline-block;
+}
+.info {
+    width: 200px;
+    border: 10px solid red;
+    display: inline-block;
+    vertical-align: top;
+    height: 390px;
+    position: fixed;
+    padding: 10px;
+}
+.info h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+}
+.info img {
+    margin-left: 50px;
+}
+.info li {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
